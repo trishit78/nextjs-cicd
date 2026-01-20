@@ -21,3 +21,8 @@ jobs:
             - name: "Clone the repository"
               uses: actions/checkout@v2
         
+            - name: "Run Build"
+              run: npm run build
+            
+            - name: "list dir"
+              run: ls
